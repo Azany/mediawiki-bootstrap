@@ -36,7 +36,7 @@ class SkinMediaWikiBootstrap extends SkinTemplate {
         $min = $this->getRequest()->getFuzzyBool('debug') ? '' : '.min';
         $out->addHeadItem('csshover', '<!--[if lt IE 7]><style type="text/css">body{behavior:url("' .
                 htmlspecialchars($wgLocalStylePath) .
-                "/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
+                "/{$this->template}/csshover{$min}.htc\")}</style><![endif]-->"
         );
 
         $out->addHeadItem('responsive', '<meta name="viewport" content="width=device-width, initial-scale=1.0">');
