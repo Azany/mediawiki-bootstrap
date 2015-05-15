@@ -265,7 +265,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                     <!-- sitenotice -->
 
                     <div class="row">
-                        <div class="col-xm-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12">
                         
                             <div id="siteNotice" class="alert alert-info">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -283,7 +283,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                     <?php if ($this->data['newtalk']): ?>
                         <!-- newtalk -->
                         
-                        <div class="usermessage col-xm-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                        <div class="usermessage col-xm-12 col-sm-12 col-md-12 col-lg-12">
                         
                             <div class="alert alert-success">
                                 <i class="fa fa-comments"></i>
@@ -309,7 +309,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                         
                     <!-- innerbodycontent -->
                     <div id="innerbodycontent">
-                        <div class="col-xm-12 col-sm-offset-1 col-sm-8 col-md-offset-1 col-md-8 col-lg-offset-1 col-lg-8">
+                        <div class="col-xm-12 col-sm-9 col-md-9 col-lg-9">
                             <h1 id="firstHeading" class="firstHeading page-header">
                                 <span dir="auto"><?php $this->html('title') ?></span>
                             </h1>
@@ -321,7 +321,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                             }
                             ?>
                         </div>
-                        <div class="col-xm-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">   
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12">   
                             <hr>
                             <!-- subtitle -->
                             <div id="contentSub" <?php $this->html('userlangattributes') ?>><?php $this->html('subtitle') ?></div>
@@ -346,7 +346,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                     <?php if ($this->data['catlinks']): ?>
                         <!-- catlinks -->
                         <div class="row">
-                            <div class="col-xm-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12">
                                 <?php $this->html('catlinks'); ?>
                             </div>
                         </div>
@@ -355,7 +355,7 @@ class MediaWikiBootstrapTemplate extends BaseTemplate {
                     <?php if ($this->data['dataAfterContent']): ?>
                         <!-- dataAfterContent -->
                         <div class="row">
-                            <div class="col-xm-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12">
                                 <?php $this->html('dataAfterContent'); ?>
                             </div>
                         </div>                        
