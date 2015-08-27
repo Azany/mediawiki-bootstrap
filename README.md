@@ -1,4 +1,4 @@
-MediaWikiBootstrap Skin
+Адаптация оригинального MediaWikiBootstrap Skin
 ===================
 
 A customizable responsive MediaWiki skin based on Bootstrap3. Check the [MediaWiki-Bootstrap Github repo](https://github.com/nasirkhan/mediawiki-bootstrap) to get the updated documentation.  
